@@ -1,0 +1,18 @@
+{
+  "description": "Load the user's Poly memory context when a Codex session starts.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${PLUGIN_ROOT}/hooks/session-start.sh\"",
+            "timeout": 30,
+            "statusMessage": "Loading Poly memory context..."
+          }
+        ]
+      }
+    ]
+  }
+}

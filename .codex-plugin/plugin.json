@@ -1,0 +1,43 @@
+{
+  "name": "poly",
+  "version": "0.1.0",
+  "description": "Give Codex persistent context and access to your Poly files",
+  "author": {
+    "name": "Poly",
+    "url": "https://poly.app"
+  },
+  "homepage": "https://docs.poly.app/integrations/codex",
+  "repository": "https://github.com/withpoly/polycodex",
+  "keywords": [
+    "poly",
+    "codex",
+    "files",
+    "search",
+    "mcp",
+    "memory",
+    "second-brain"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Poly",
+    "shortDescription": "Persistent context and intelligent file search for Codex",
+    "longDescription": "Poly gives Codex persistent user context at session start and lets it search, read, create, update, and organize files across personal and shared drives.",
+    "developerName": "Poly",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://poly.app",
+    "defaultPrompt": [
+      "Pick up where I left off using my Poly memory",
+      "Find the project brief in Poly and summarize the open questions",
+      "Organize the files in my Poly inbox"
+    ],
+    "composerIcon": "./assets/poly-icon.png",
+    "logo": "./assets/poly-icon.png",
+    "screenshots": []
+  }
+}
